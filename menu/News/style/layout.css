@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f9ffac;
+	border-top: 10px sold #0FA8E7;
+	font-family: arial, tahoma, sans serif;
+	font-size: 14px;
+}
+
+#header {
+	width: 1000px;
+	height: 100px;
+	margin: 0px auto 0 auto;
+}
+
+#logo, #slogan, #language, #contact_info {
+	margin-top: 20px;
+	float: left;
+}
+
+#logo {
+    display: 10px;
+}
+
+#slogan, #language {
+	margin-left: 20px;
+}
+
+#cotact_info {
+	margin: 30px 0 0 0;
+}
+
+#contact_info li {
+	float: left;
+	margin-right: 10px;
+	list-style: none;
+	border-right: 2px sold #2261AE;
+	padding: 0 12px 0 0;
+}
+
+#contact-info li.no_border {
+	border-right: 25px;
+}
+
+#contact_info a {
+	color: #79c8f2;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold,
+}
+
+#contact_info span {
+	color: #fffefd;
+}
+
+#language {
+	margin: 40px 30px 0px 60px;
+}
+
+#language a {
+	color: #2261AE;
+	text-decoration: none;
+	background: url("../images/Myanmar.png")no-repeat;
+	padding: 0 0 0 30px;
+}
+
+#slogan {
+	margin: 30px 0 0 20px;
+}
+
+#slogan a {
+	color: #fa5829;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#menu {
+	width: 100%;
+	height: 50px;
+	display: block;
+	background: #74f40b repeat-x;
+}
+
+#menu ul {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#menu li {
+	float: left;
+	list-style-type: none;
+	border-right: 1px solid #dddddd;
+}
+
+#menu a {
+	width: 199px;
+	height: 50px;
+	display: block;
+	text-decoration: none;
+	color: #0d0c00;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 3.5;
+}
+
+#menu a.hovor, #menu a.current  {
+	background: #ddd repeat-x;
+	color: #030303;
+}
+
+#mainbody {
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	border: 10px solid #ddd;
+	box-shadow: 0 0 5px #ddd;
+	padding: 10px;	
+}
+
+#block {
+	padding: 20px 10px 10px 10px;
+	border: 1px solid #ddd;
+	margin-top: 1px 0 0 0;
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+	display: block;
+	background: #dadada repeat;
+	text-align: center;
+	margin: 30px 0 0;
+	border-top: 5px sold #222;
+	padding: 20px;
+	line-height: 1.5;
+	font-size: 13px;
+}
+
+#footer a {
+	color:#2701fe;
+	text-decoration: none;
+}
+
+#footer a.havor {
+	border-bottom: 1px sold #75ff04;
+}
